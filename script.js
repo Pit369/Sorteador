@@ -15,8 +15,8 @@ function GenerarNumero() {
 }
 
 function Validar(){
-    const min = document.querySelector("#min").value;
-    const max = document.querySelector("#max").value;
+    const min = parseInt(document.querySelector("#min").value);
+    const max = parseInt(document.querySelector("#max").value);
 
     if (min == "" || max == "") {
         alert("Preencha todos os campos");
