@@ -23,7 +23,7 @@ function Validar(){
         return false;
     }
 
-    if (min > max) {
+    if (min >= max) {
         alert("O primeiro número deve ser menor que o segundo");
         return false;
     }
